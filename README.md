@@ -78,7 +78,7 @@ pip install fastapi uvicorn streamlit requests pandas scikit-learn joblib pydant
 **1. Start the FastAPI backend** (from the `backend/` directory):
 ```bash
 cd backend
-uvicorn app:app --host 127.0.0.1 --port 8000
+uvicorn app:app --reload
 ```
 
 **2. Start the Streamlit frontend** (from the `frontend/` directory, in a new terminal):
