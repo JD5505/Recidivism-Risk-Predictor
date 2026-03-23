@@ -1,7 +1,9 @@
 import pandas as pd
 import joblib
+import os
 
-model = joblib.load('Model/model.pkl')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model = joblib.load(os.path.join(BASE_DIR, "model.pkl"))
 
 def predict_proba(input_dict : dict):
     input_df = pd.DataFrame([input_dict])

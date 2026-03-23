@@ -1,3 +1,5 @@
 __pycache__/
 .vscode/
 cox-violent-parsed_filt.csv
+myenv/
+backend/Model/Model_Training.ipynb
