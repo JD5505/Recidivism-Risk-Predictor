@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = 'https://recidivism-risk-predictor.onrender.com/predict'
+API_URL = 'http://13.235.103.164:8000/predict'
 
 st.set_page_config(
     page_title="Recidivism Risk Predictor",
